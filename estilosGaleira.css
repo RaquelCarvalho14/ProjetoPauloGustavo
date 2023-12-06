@@ -1,0 +1,36 @@
+.letra{
+    font-size: 25px;
+}
+
+.imagens{
+    height: 800px;
+    width:100%;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+.legenda{
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(55, 201, 152);
+}
+
+@media only screen and (min-width:641px) and (max-width:1007px) {
+    .imagens{
+        height: 800px;
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:1008px) {
+    .imagens{
+        height: 800px;
+        width:100%;
+    }
+}
+

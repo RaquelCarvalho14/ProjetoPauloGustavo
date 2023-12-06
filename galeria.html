@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria-Paulo Gustavo</title>
+    <link rel="stylesheet" href="estilosGaleira.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <style>
+        .mySlides {display:none;}
+    </style>
+    <style>
+        .w3-lobster {
+          font-family: "Lobster", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-card w3-margin-top" id="mySidebar">
+        <div class="w3-container w3-cyan">
+          <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large w3-hover-red">X</span>
+          <br>
+          <div class="w3-padding w3-center">
+            <img class="w3-circle" src="imagens/paulo-cortina.jpg" alt="Imagem de Paulo Gustavo" style="width:115%">
+          </div>
+        </div>
+        <div class="letra">
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="index.html">Página Inicial</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="VidaPessoal.html">Biografia</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="VidaProfissional.html">Vida Profissional</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="form.html">Quiz</a>
+        </div>
+               
+    </nav>
+        
+        <header class="w3-top w3-bar w3-cyan">
+            <h1 class="w3-bar-item w3-lobster w3-xxxlarge">Menu</h1>
+            <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-aqua w3-margin-top" onclick="openSidebar()">&#9776;</button>
+        </header>
+        
+        <div  style="margin-top:90px">
+            <hr>   
+        </div>
+
+        <script>
+            closeSidebar();
+            function openSidebar() {
+              document.getElementById("mySidebar").style.display = "block";
+            }
+            
+            function closeSidebar() {
+              document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+
+    <h1 class="w3-center w3-xxxlarge font-effect-shadow-multiple">Galeria-Paulo Gustavo</h1>
+       
+        <div class="tudo w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/foto.bonita.jpg" alt="Paulo com seus filhos e seu marido" title="Paulo com seus filhos e seu marido">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Família
+                </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/marido.jpg" alt="Paulo com seu marido" title="Paulo Gustavo com seu marido Thales Bretas">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Família
+                </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/thales-bretas-filhos-paulo-gustavo-romeu-gael.jpg" alt="Thales Bretas com seus filhos" title="Thales Bretas com seus filhos">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Família
+                </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/familia.jpg" alt="Paulo Gustavo com sua família" title="Paulo Gustavo com sua família">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Família
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/lei1.png" alt="Homenagem lei Paulo Gustavo" title="Homenagem lei Paulo Gustavo">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                     Homenagens
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/homenagem2.jpg" alt="Homenagem com o nome de Paulo Gustavo em uma rua" title="Homenagem com o nome de Paulo Gustavo em uma rua">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                Homenagens
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/SemTitulo.jpeg" alt="Imagem de homenagem a Paulo Gustavo">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                Homenagens   
+                </div> 
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/AGuerradosRocha.jpeg" alt="Imagem do filme Guerra dos Rochas">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Diva.jpg" alt="Imagem do filme Diva">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Xuxa_em_O_Misterio_de_Feiurinha.jpg" alt="Poster do filme &quot;Xuxa em O Mistério da Feiurinha&quot;" title="Poster do filme &quot;Xuxa em O Mistério da Feiurinha&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/minhamaepeca-trilogia.jpg" alt="Pôsteres dos filmes da trilogia &quot;Minha Mãe é uma Peça&quot;" title="Poster dos filmes da trilogia &quot;Minha Mãe é uma Peça&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Os_Homens_Sao_de_Marte..._e_E_pra_la_que_Eu_Vou.jpg" alt="Poster do filme &quot;Os Homens São De Marte...e É Pra Lá Que Eu Vou&quot;" title="Poster do filme &quot;Os Homens São De Marte...e É Pra Lá Que Eu Vou&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Vai-que-cola-o-filme.png" alt="Poster do filme &quot;Vai que Cola&quot;" title="Poster do filme &quot;Vai que Cola&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Fala_Serio,_Mae!.jpeg" alt="Poster do filme &quot;Fala Sério,Mãe!&quot;" title="Poster do filme &quot;Fala Sério,Mãe!&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Minha_Vida_em_Marte.jpg" alt="Poster do filme &quot;Minha Vida em marte&quot;" title="Poster do filme &quot;Minha Vida em Marte&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/220-volts-g1.jpg" alt="Poster do filme &quot;220 Volts&quot;" title="Poster do filme &quot;220 Volts&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Filho_da_Mae_-_Um_Reencontro_com_Paulo_Gustavo.jpg" alt="Poster do filme &quot;Filho da Mãe - Um Reencontro com Paulo Gustavo&quot;" title="Poster do filme &quot;Filho da Mãe - Um Reencontro com Paulo Gustavo&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Cinema
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Prova_de_amor_logo.jpg" alt="Poster da Telenovela &quot;Prova de Amor&quot;" title="Poster da Telenovela &quot;Prova de Amor&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+            
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Minhanadamolevida_logo.jpg" alt="Poster do seriado de televisão &quot;Minha Nada Mole Vida&quot;" title="Poster do seriado de televisão &quot;Minha Nada Mole Vida&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/A-diarista-globo.jpg" alt="Poster do seriado de televisão &quot;A Diarista&quot;" title="Poster do seriado de televisão &quot;A Diarista&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Alem_da_Ilha.jpg" alt="Poster da série de televisão &quot;Além da Ilha&quot;" title="Poster da série de televisão &quot;Além da Ilha&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/220_Volts_Natal.jpg" alt="Poster do especial de natal &quot;220 Volts&quot;" title="Poster do especial de natal &quot;220 Volts&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/A_Vila.jpg" alt="Poster da sitcom &quot;A Vila&quot;" title="Poster da sitcom &quot;A Vila&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Ferdinando_Show.jpg" alt="Poster do talk show &quot;Ferdinando Show&quot;" title="Poster do talk show &quot;Ferdinando Show&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Paulo_Gustavo_na_Estrada.jpg" alt="Poster do reality show &quot;Paulo Gustavo na Estrada&quot;" title="Poster do reality show &quot;Paulo Gustavo na Estrada&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/vaiquecola-sitcom.jpeg" alt="Poster da sitcom &quot;Vai que Cola!&quot;" title="Poster da sitcom &quot;Vai que Cola!&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/O_Fantastico_Mundo_de_Gregorio.jpg" alt="Poster da série de televisão &quot;O Fantástico Mundo de Gregorio&quot;" title="Poster da série de televisão &quot;O Fantástico Mundo de Gregório&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/220_Volts_televisao.jpg" alt="Poster da série de televisão &quot;220 Volts&quot;" title="Poster da série de televisão &quot;220 Volts&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Seriado_Diva.jpg" alt="Poster da minissérie televisiva &quot;Divã&quot;" title="Poster da minissérie televisiva &quot;Divã&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Logo-casos-e-acasos.jpg" alt="Poster da série de televisão &quot;Casos e Acasos&quot;" title="Poster da série de televisão &quot;Casos e Acasos&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Por_Toda_Minha_Vida.png" alt="Poster do Especial da TVGlobo &quot;Por Toda minha Vida&quot;" title="Poster do Especial da TVGlobo &quot;Por Toda minha Vida&quot;" >
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Faca-sua-historia.jpg" alt="Poster da série de televisão &quot;Faça sua História&quot;" title="Poster da série de televisão &quot;Faça sua História&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Sitio_do_Picapau_Amarelo_(2001)_logo.jpg" alt="Poster da série de televisão &quot;Sítio do Picapau Amarelo&quot;" title="Poster da série de televisão &quot;Sítio do Picapau Amarelo&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Televisão
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/online_teatro.jpg" alt="Poster teatro &quot;Online&quot;" title="Poster teatro &quot;Online&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/220_volts_teatro.jpg" alt="Poster teatro &quot;220 Volts&quot;" title="Poster teatro &quot;220 Volts&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/JoaoTernura.jpg" alt="Poster de &quot;Joâo Ternura&quot;" title="Poster de &quot;Joâo Ternura&quot;">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Hiperativo.jpg" alt="Anúncio teatro &quot;Hiperativo&quot;" title="Anúncio teatro &quot;Hiperativo&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Espetaculo-Minha-Mae-e-uma-Peca.jpg" alt="Imagem do teatro &quot;Minha Mãe é uma Peça&quot;" title="Imagem do teatro &quot;Minha Mãe é uma Peça&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/treatro_infraturas.jpg" alt="Imagem do teatro Infraturas" title="Imagem do teatro &quot;Infraturas&quot;">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Teatro
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img class="imagens" src="imagens/Livro-Paulo-Gustavo.jpg" alt="Imagem do livro do Paulo Gustavo" title="Imagem do livro do Paulo Gustavo">
+                <div class="legenda w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Livro
+                </div>
+            </div>
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>               
+          
+</body>
+
+</html>

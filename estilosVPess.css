@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(55, 201, 152);
+}
+
+.fig{
+    width:100%;
+    height: 277px;
+}
+
+.letra{
+    font-size: 25px;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+span{
+    font-weight: bold;
+}
+
+.tudo{
+    border: 2px solid red;
+}
+
+.borda1{
+    border: 2px solid orangered;
+    margin: 10px;
+}
+
+.borda2{
+    border: 2px solid rgb(230, 230, 23);
+    margin: 10px;
+}
+
+.borda3{
+    border: 2px solid green;
+    margin: 10px;
+}
+
+.borda4{
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+.borda5{
+    border: 2px solid purple;
+    margin: 10px ;
+}
+
+.bio{
+    color: red;
+}
+
+.laranja{
+    color: orangered;
+}
+
+.amarelo{
+    color: rgb(230, 230, 23);
+}
+
+.verde{
+    color: green;
+}
+
+.azul{
+    color: blue;
+}
+
+.roxo{
+    color: purple;
+}
+
+@media only screen and (min-width:641px) and (max-width:1007px) {
+    .fig{
+        height: 277px;
+        width: 100%;
+    }
+    nav{
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width:1008px) {
+    .fig{
+        height: 277px;
+        width: 30%;
+    }
+    nav{
+        padding-top: 0;
+    }
+}

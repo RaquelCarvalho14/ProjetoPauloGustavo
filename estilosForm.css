@@ -1,0 +1,15 @@
+.letra{
+    font-size: 25px;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(55, 201, 152);
+}
+
+label {
+    font-size: 20px;
+}

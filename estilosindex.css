@@ -1,0 +1,26 @@
+*{
+    font-size: 35px;
+}
+
+p{
+    text-align: center;
+    text-decoration: none;
+    font-weight:lighter ;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p:hover{
+    border-radius: 25px;
+    background-color:aqua;
+    width: 98%;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}

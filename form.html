@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosForm.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <title>Projeto Prático-Paulo Gustavo</title>
+    <style>
+        .w3-lobster {
+          font-family: "Lobster", serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-card w3-margin-top" id="mySidebar">
+        <div class="w3-container w3-cyan">
+          <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large w3-hover-red">X</span>
+          <br>
+          <div class="w3-padding w3-center">
+            <img class="w3-circle" src="imagens/paulo-cortina.jpg" alt="Imagem de Paulo Gustavo" style="width:115%">
+          </div>
+        </div>
+        <div class="letra">
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="index.html">Página Inicial</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="galeria.html">Galeria</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="VidaPessoal.html">Biografia</a>
+            <a class="w3-bar-item w3-button w3-hover-aqua" href="VidaProfissional.html">Vida Profissional</a>
+        </div>
+               
+    </nav>
+        
+        <header class="w3-top w3-bar w3-cyan">
+            <h1 class="w3-bar-item w3-lobster w3-xxxlarge">Menu</h1>
+            <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-aqua w3-margin-top" onclick="openSidebar()">&#9776;</button>
+        </header>
+        
+        <div  style="margin-top:90px">
+            <hr>   
+        </div>
+
+        <script>
+            closeSidebar();
+            function openSidebar() {
+              document.getElementById("mySidebar").style.display = "block";
+            }
+            
+            function closeSidebar() {
+              document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+  
+<div>
+     <fieldset class="w3-margin-left w3-margin-right">
+        <legend class="w3-xxxlarge font-effect-shadow-multiple">Quiz sobre Paulo Gustavo</legend>
+        <br>
+        <form action="" method="post">
+            <label for="nomecomp">Qual é o nome completo de Paulo Gustavo:</label>
+            <br>
+            <input class="w3-input w3-border-cyan" type="text" name="nomecomp" id="nomecomp" style="width:100%">
+            <br> <br>
+            <label for="datanasc">Em que data ele nasceu:</label>
+            <br>
+            <input class="w3-input w3-border-cyan" type="date" name="datanasc" id="datanasc" style="width:100%">
+            <br> <br>
+            <label for="nomefilhos1">Qual&lpar;is&rpar; é&lpar;são&rpar; o&lpar;s&rpar; nome&lpar;s&rpar; do&lpar;s&rpar; filho&lpar;s&rpar;:</label>
+            <br>
+            <input class="w3-check maior" type="checkbox" name="nomefilhos" id="nomefilhos1">Rael
+            <br>
+            <input class="w3-check maior" type="checkbox" name="nomefilhos" id="nomefilhos2">Romeu
+            <br>
+            <input class="w3-check maior" type="checkbox" name="nomefilhos" id="nomefilhos3">Gael
+            <br>
+            <input class="w3-check maior" type="checkbox" name="nomefilhos" id="nomefilhos4">Romeo
+            <br> <br>
+            <label for="premios1">Qual foi o primeiro prêmio que ele ganhou?</label>
+            <br>
+            <input class="w3-radio" type="radio" name="premios" id="premios1">Minha Mãe é uma Peça 2 ganhou na categoria melhor roteiro adaptado do Grande Prêmio do Cinema Brasileiro 2017
+            <br>
+            <input class="w3-radio" type="radio" name="premios" id="premios2">Paulo Gustavo ganhou na categoria transforma MIAW LGBTQIAP+ da MTV Millenial Awards 2021
+            <br>
+            <input class="w3-radio" type="radio" name="premios" id="premios3">Minha Mãe é uma Peça ganhou na categoria melhor filme do Meus Prêmios Nick 2013
+            <br>
+            <input class="w3-radio" type="radio" name="premios" id="premios4">Minha Mãe é uma Peça 2 ganhou na categoria entretenimento do Prêmio Men of the Year Brasil 2017
+            <br> <br>
+            <label for="peca">Qual foi a primeira peça que ele atuou?</label>
+            <br>
+            <select class="w3-input" name="peca" id="peca" style="width:100%">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="peca">Minha Mãe É uma Peça</option>
+                <option value="peca">Surto</option>
+                <option value="peca">220 Volts</option>
+                <option value="peca">Infraturas</option>
+            </select>
+            <br><br>
+            <label for="inspiracao">Em quem ele se inspirou para criar &quot;Minha Mãe É uma Peça&quot;?</label>
+            <br>
+            <textarea class="w3-input w3-border-cyan" name="inspiracao" id="inspiracao" cols="30" rows="2" style="width:100%"></textarea>
+            <br>
+            <div class="w3-center">
+                <button class="w3-button w3-blue w3-button w3-round-xxlarge w3-center">Enviar</button>
+                <button class="w3-button w3-red w3-round-xxlarge w3-center">Cancelar</button>
+            </div> 
+        </form>
+    </fieldset>
+</div>
+</body>
+</html>
